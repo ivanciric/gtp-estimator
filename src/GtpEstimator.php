@@ -9,6 +9,7 @@ class GtpEstimator
 
     /**
      * GtpEstimator constructor.
+     *
      * @param $visibleObjects
      * @param $maxObservedSerialNumber
      */
@@ -19,6 +20,9 @@ class GtpEstimator
     }
 
     /**
+     * Named constructor for the GtpEstimator.
+     * Bootstraps the class and executes the calculate() method.
+     *
      * @param $visibleObjects
      * @param $maxObservedSerialNumber
      * @return mixed
@@ -31,6 +35,10 @@ class GtpEstimator
     }
 
     /**
+     * Main calculation method.
+     * Will return an estimation int, or false if some parameter is missing
+     * or maxObserverSerialNumber is less than the number of visibleObjects.
+     *
      * @return bool|int
      */
     private function calculate()
