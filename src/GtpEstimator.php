@@ -2,7 +2,6 @@
 
 namespace Ivanciric\GtpEstimator;
 
-
 class GtpEstimator
 {
     private $visibleObjects = false;
