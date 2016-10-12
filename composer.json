@@ -1,6 +1,5 @@
 {
     "name": "ivanciric/gtp-estimator",
-    "version": "0.0.2",
     "type": "library",
     "description": "German Tank Problem Estimator",
     "keywords": [
