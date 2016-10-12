@@ -5,7 +5,7 @@ German Tank Problem estimator in PHP
 In composer.json file add the following in the require array:
 
 ``` bash
-"ivanciric/gtp-estimator": "0.0.1"
+"ivanciric/gtp-estimator": "0.0.*"
 ```
 
 ## Usage
